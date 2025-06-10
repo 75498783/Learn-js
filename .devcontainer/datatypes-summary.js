@@ -25,5 +25,14 @@ let myobj = {
 }
 const myaFunction  = function(){
     console.log("hello world");
-    
+
 }
+// if we need to know which data type exist so we can use "typeof" syntax......
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++
+// now we know where is used stack and heap 
+// stack is used (primitive ) 
+// heap is used (nonprimitive)
+
+// example
+ 
