@@ -3,9 +3,7 @@ let anothername  = "chaiaurcode"
 
 console.log(myYoutubename);
 console.log(anothername);
-
-
-let userOne = {
+  let userOne = {
     email: "user@google.cpm",
     upi : "user@ybl"
 }
