@@ -101,6 +101,10 @@ const myhero = [" Myfather ", " Mybrother " ]
 
 
   // slice , spice 
+  // slice(1, 3) → returns elements at index 1 and 2 → [20, 30] (original array remains unchanged)
+
+// splice(1, 3) → removes 3 elements starting from index 1 → removes [20, 30, 40] (original array changes)
+
   console.log("A", myArr);
 
 const myn1 = myArr.slice(1, 3);
@@ -111,6 +115,3 @@ const myn2 = myArr.splice(1, 3);
 console.log("C", myArr); // splice modifies the original array
 console.log("After splice (myn2):", myn2);
 
-// slice(1, 3) → returns elements at index 1 and 2 → [20, 30] (original array remains unchanged)
-
-// splice(1, 3) → removes 3 elements starting from index 1 → removes [20, 30, 40] (original array changes)
